@@ -1,0 +1,26 @@
+{
+    "name": "kfosoft/php-accept-ratio",
+    "description": "PHP Screen Accept Ratio Helper",
+    "keywords": [
+        "php",
+        "php ratio",
+        "php accept ratio",
+        "accept ratio",
+        "ratio",
+        "screen accept ratio"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Cyril Turkevich",
+            "email": "cyril.turkevich@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "kfosoft/php-abstract-enum":"1.0",
+    },
+    "autoload": {
+        "psr-4": {"kfosoft\\": ""}
+    }
+}
