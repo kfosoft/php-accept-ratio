@@ -6,7 +6,7 @@ use kfosoft\enums\StandardAcceptRatio;
 /**
  * Graphics display resolution helper.
  * @package kfosoft\helpers
- * @version 1.0
+ * @version 1.0.1
  * @copyright (c) 2014-2015 KFOSoftware Team <kfosoftware@gmail.com>
  */
 class DisplayAcceptRatio
