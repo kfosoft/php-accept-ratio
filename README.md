@@ -17,14 +17,12 @@ or add in composer.json
 
 Well done!
 
-#### Example 1
-echo (new \kfosoft\helpers\DisplayAcceptRatio(1366,768))->get(); // 16:9
+#### Examples
+```
+use KFOSOFT\Domain\Display\Value\DisplayAcceptRatio;
 
-#### Example 2
-$helper = new \kfosoft\helpers\DisplayAcceptRatio(1366,768);
-echo $helper->get(); // 16:9
-$helper->setWidth(1280);
-$helper->setHeight(1024);
-echo $helper->get(); // 5:4
+echo DisplayAcceptRatio::create(1366, 768)(); // 16:9
+echo DisplayAcceptRatio::create(1280, 1024)->calculateRatio(); // 5:4
+```
 
 Enjoy, guys!
